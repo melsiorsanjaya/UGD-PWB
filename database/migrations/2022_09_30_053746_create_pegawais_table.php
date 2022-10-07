@@ -18,7 +18,6 @@ return new class extends Migration
             $table->string('nomor_induk_pegawai');
             $table->string('nama_pegawai');
             $table->Integer('id_departemen');
-            
             $table->boolean('gender')->default;
             $table->boolean('status')->default;
             $table->Integer('telepon');
