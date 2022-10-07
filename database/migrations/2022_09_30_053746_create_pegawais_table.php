@@ -17,11 +17,11 @@ return new class extends Migration
             $table->id();
             $table->string('nomor_induk_pegawai');
             $table->string('nama_pegawai');
-            $table->integer('id_departemen');
-            $table->string('email');
+            $table->Integer('id_departemen');
+            
             $table->boolean('gender')->default;
             $table->boolean('status')->default;
-            $table->integer('telepon');
+            $table->Integer('telepon');
             
             $table->timestamps();
 
