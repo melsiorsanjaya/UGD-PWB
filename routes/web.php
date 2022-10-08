@@ -24,3 +24,10 @@ Route::get('/', function () {
 });
 Route::resource('/pegawai', 
 \App\Http\Controllers\PegawaiController::class);
+
+Route::get('/', function () {
+    return view('dashboard');
+});
+Route::resource('/proyek', 
+\App\Http\Controllers\ProyekController::class);
+
